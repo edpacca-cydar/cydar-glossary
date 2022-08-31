@@ -1,5 +1,37 @@
 # Cydar Glossary of Terms
+[Agent](#agent)  
+[Agent console](#agent-console)  
+[Agent ID](#agent-id)  
+[Agent server](#agent-server)  
+[Aorta](#aorta)  
+[ASBO](#asbo)  
+[Canned Registration](#canned-registration)  
+[CAS](#cas)  
+[Disthashbin](#disthashbin)  
+[DRR](#drr)  
+[GRPC](#grpc)  
+[IVM model](#ivm-model)  
+[LVM](#lvm)   
+[PACs](#pacs)  
+[PatData](#patdata)  
+[Payload](#payload)  
+[Process ID](#process-id)  
+[Process Manager](#process-manager)  
+[Process manifest](#process-manifest)  
+[Process Runner](#process-runner)  
+[Process spec](#process-spec)  
+[Protobufs](#protobufs)  
+[PubSubStore](#pubsubstore)  
+[Stent](#stent)  
+[Stent Graft](#stent-graft)  
+[Vault](#vault)  
+[Verdict](#verdict)  
+[VTK](#vtk)  
 
+
+<!--END-OF-INDEX-->
+***
+<br><br>
 
 # General terms
 ## Aorta
@@ -13,19 +45,31 @@ An endovascular stent graft is a fabric tube, supported by a metal mesh, called 
 
 ## PACs
 ## DRR
+
 ## ASBO
 
+***
+<br>
 
 # ITG - [In Theatre GUI](https://github.com/CydarLtd/ITG)
-## LVM - *Last Verified Map*
-## PatData - *Patient Data*
+## LVM 
+(***Last Verified Map***)
+## PatData 
+(***Patient Data***)
+
 ## IVM model
-## verdict
+(******)
+## Verdict
 ## Canned Registration
 
-# Dependencies
-## VTK - [*Visualisation Toolkit*](https://vtk.org/)
+*** 
+<br>
 
+# Dependencies
+## VTK
+[***Visualisation Toolkit***](https://vtk.org/)
+
+***
 # Agent
 ## Process spec
 a data structure that contains zip/exe hash, environment, arguments, metadata
@@ -35,7 +79,8 @@ a number corresponding to a process within an agent instance. A process update w
 a list of process definitions
 ## Agent
 this project and also the name of the client which runs processes
-## Agent server – the server the agent connects to## Controller
+## Agent server
+the server the agent connects to [Agent-Controller](#agent-controller)
 the entity controlling the server (publishing manifests, etc)
 ## Payload
 an EXE, ZIP containing EXE, OCI etc. The package to run.
@@ -61,4 +106,6 @@ A subscribe-able key-value store
 a component of Agent responsible for running process given a Process Spec
 ## Process Manager
 A component of Agent responsible for controlling a collection of process runners
+
+# New Entries
 
